@@ -1,0 +1,62 @@
+html, body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+h1 {
+    text-align: center;
+}
+
+canvas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.permanent-marker-regular {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+.orbitron {
+    font-family: "Orbitron", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.silkscreen-regular {
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.home {
+    background-color: black;
+    background-image: url(sprite/planeta.jpg);
+    flex-direction: row;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    gap: 1.5rem;
+    align-items: center;
+}
+.titulo {
+    font-size: 2.5rem;
+    font-family: "Silkscreen", sans-serif;
+    margin: 0;
+}
+
+.instrucciones {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 1rem;
+    font-family: "Orbitron", serif;
+}
+
+.fondo {
+    display: flex;
+    width: 100%;
+}
